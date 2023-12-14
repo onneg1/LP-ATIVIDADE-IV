@@ -3,6 +3,12 @@
 #include <locale.h>
 #include <string.h>
 
+//Crie uma função chamada "calcularMedia" que recebe como parâmetro uma struct "Aluno", 
+//esta struct terá informações como: nome, data de nascimento, duas notas e média e retorna a média das notas.
+//Em seguida, crie um programa que declare um array de 5 alunos e utilize a função "calcularMedia" para imprimir a média de cada aluno. 
+//Também crie uma função para verificar se um aluno está aprovado ou reprovado sendo necessário média maior ou igual a 7,0 para aprovação.
+
+
 struct ficha_alunos
 {
     char nome_aluno[250];
