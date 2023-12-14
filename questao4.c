@@ -4,6 +4,13 @@
 #include <string.h>
 #include <stdbool.h>
 
+//Modele uma struct "ContaBancaria" que represente uma conta bancária 
+//com número da conta, nome do titular, saldo e tipo de conta (poupança ou corrente). 
+//Implemente funções para depositar e sacar dinheiro da conta, 
+//bem como para imprimir o saldo atual. 
+//Crie um programa que utilize essas funções para simular operações bancárias.
+//Crie um menu para as operações disponíveis.
+
 struct Conta {
     int numero;
     char titular_nome[50];
